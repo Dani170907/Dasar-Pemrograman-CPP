@@ -25,7 +25,7 @@ int main () {
    cout << endl;
 
    // Linear Search dari Belakang
-   int posisi = -1;
+   int posisi = -1; 
    for (int i = n - 1; i >= 0; i--)
    {
       if (nilai[i] == cari) {
