@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
 
-
 int main() {
    double kebersihan = 4.8;
    double pelayanan = 4.5;
