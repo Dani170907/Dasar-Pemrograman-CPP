@@ -31,3 +31,27 @@ int main () {
 // int  = main() mengembalikan nilai integer ke sistem operasi
 // {}  = curly braces menandai blok kode
 
+// Line 5:  cout << "Hello World!" << endl;
+// cout  = Console Output (untuk menampilkan ke layar)
+// <<  = insertion operator (memasukkan data ke output stream)
+// "Hello World!"  = string literal yang akan ditampilkan
+// endl  = end line (pindah baris + flush buffer)
+// ;  = semicolon mengakhiri setiap statement
+
+// Line 6:  return 0;
+// Mengembalikan nilai 0 ke sistem operasi
+// 0 = program berhasil dijalankan
+// Non-zero = ada error dalam program
+// Wajib ada karena main() bertipe  int  (akan ditambahkan otomatis oleh compiler mulai versi C++ 2003)
+// // Contoh program dengan multiple output
+// #include <iostream>
+// using namespace std;
+// int main() {
+//     cout << "Baris pertama" << endl;
+//     cout << "Baris kedua" << endl;
+//     cout << "Angka: " << 123 << endl;
+//     return 0;
+// }
+// Output:
+// Baris pertama
+// Baris kedua
