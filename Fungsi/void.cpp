@@ -14,4 +14,8 @@ void cetakGaris() {
 int main () {
    salam();
    cetakGaris();
+
+   return 0;
 }
+
+// Catatan: Fungsi harus dideklarasikan sebelum dipanggil (di atas main)
